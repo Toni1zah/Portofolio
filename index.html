@@ -1,58 +1,230 @@
 <!DOCTYPE html>
-
-<style>
-
-img {img-align: center; border-radius: 40px; height: 300px; width: 10px;}
-
-        p { 
-            font-family: monospace; 
-            font-size: 24px; 
-text-align:center;
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tony's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/927995116478689320/1403492275883081738/cheese.png?ex=6897bf8a&is=68966e0a&hm=1059ee80c208483f2230b341c81a8fe9d3437580880b2107bcf5f5fa3ea3efe3&">
+    <link rel="stylesheet" href="https://unpkg.com/xp.css@0.2.3/dist/98.css" />
+    <style>
+        body {
+            background-color: BlanchedAlmond;
+            padding: 0;
+            margin: 0;
+            background-image: url("https://i.pinimg.com/1200x/c7/87/3f/c7873f08775f9bec67b9e218f41eca2e.jpg");
+            background-size:contain;
+            background-repeat: no-repeat;
+            background-position: center;
         }
-
-em { font-weight: bold; font-size: 32px; text-align:center; padding-top: 100px}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-}
-
-h4 {
-padding-top: 70px; text-align:center;
-}
-
-body {background-color: Snow; text-align:center; }
-
-h2 {text-align:center;}
-
-#gamesworkedon {padding:0px; font-size: 6 font-family:italic}
-
-h3 {text-align:center;}
-
-body {border-radius: 32px;}
-
-</style>
-
-<title> Toni1zah's Portofolio </title>
-
+        .main-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 150%;
+            overflow: auto;
+            background: none;
+            padding: 20px;
+        }
+        article {
+            width: 100%;
+            height: 60px;
+            background-color: lightgray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        article h5, article h6 {
+            margin: 0;
+        }
+    </style>
+</head>
 <body>
 
-<p style="background-image: url('https://i.pinimg.com/736x/f4/84/78/f48478a0fc251d2e9593d9836943de5c.jpg');">
+    <img src="https://i.pinimg.com/1200x/c7/87/3f/c7873f08775f9bec67b9e218f41eca2e.jpg" style="width: 100vw; height: 150vh;">
 
+    <div class="main-container">
+        <div class="window" style="width: 300px; height: 225px; position: absolute; top: 20px; left: 20px;">
+            <div class="title-bar">
+                <div class="title-bar-text">Tony's Portfolio</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <h3>Hello! This is my portfolio.</h3>
+                <h5> My name's Tony. I'm a luau, HTML, JS, CSS programmer. <br> I've been working with luau for 5 years, but 2 years professionally. My experience in HTML, JS, CSS is around 3 months. </h5>
+            </div>
+        </div>
+
+        <img src="https://cdn.discordapp.com/attachments/927995116478689320/1403492275883081738/cheese.png?ex=6897bf8a&is=68966e0a&hm=1059ee80c208483f2230b341c81a8fe9d3437580880b2107bcf5f5fa3ea3efe3&" 
+        alt="dante" width="100" 
+        style="position: absolute; top: 35px; left: 75vw;">
+
+        <div class="window" style="width:250px; height:125px; position: absolute; top:150px; left:70vw; text-align: center;">
+            <div class="title-bar">
+                <div class="title-bar-text">Work examples</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <p style="font-size: 24px;">You can see my ROBLOX work examples <a href="https://drive.google.com/drive/folders/1e_1VFY2oHLwHLIBZL0oFagUEr4_C0yR8?usp=sharing">here</a></p>
+            </div>
+
+        </div>
+
+        <div class="window" style="width:400px; height:850px; position: absolute; top:180px; left:25vw;">
+            <div class="title-bar">
+                <div class="title-bar-text">ToS / Terms of Service</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <h4>You can see a more detailed document of my Terms of Service <a href="https://drive.google.com/drive/folders/1e_1VFY2oHLwHLIBZL0oFagUEr4_C0yR8?usp=sharing">here</a></h4>
+                
+                <h4 style="text-align: center;">Payment</h4>
+                
+                <p style="font-size: large;">
+                   - My only accepted form of payment is via PayPal <br>
+                   - I work with an hourly rate of 7$/hr 
+                   - the rate is subject to change for several reasons,such as: <br>
+                   being asked to work with other people's code etc. <br>
+                   - I take a down-payment on <mark>ALL</mark> commissions. 
+                </p>
+
+                <h4 style="text-align: center;">Working Hours</h4>
+                
+                <p style="font-size: large;">
+                   - My work day can go up to 10 hours,but I may work less on each project (if I have multiple) in order to be able to work on all my commissions. <br>
+                   - My working time are from 12AM GMT+3 to 10PM GMT+3
+                   - My rate is increased by <mark>100%</mark> when working <mark>overtime</mark> <br>
+                   - I reserve the right to not work as I see fit.
+                </p>
+
+                <h4 style="text-align: center;">IP / Intellectual Property</h4>
+                
+                <p style="font-size: large;">
+                   - I obfuscate my code so its not accessible until the full sum has been paid <br>
+                   - Credit is much appreciated as it allows me to grow my client-base.
+                   - If contract is terminated prematurely I will deliver all the code that's already been made and be paid for that said code. <br>
+                </p>
+            </div>
+        </div>
+
+<div class="window" style="width:250px; height:375px; position: absolute; top:400px; left:55vw;">
+    <div class="title-bar">
+        <div class="title-bar-text">Payment / Rates</div>
+        <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+        </div>
+    </div>
+    <div class="window-body" style="text-align:center;">
+        <h4><mark>I strictly work with an hourly rate.</mark></h4>
+        <div>
+            <button id="show-article1">Hourly</button>
+            <button id="show-article2">Deal Package</button>
+        </div>
+        <article id="article1" role="tabpanel" style="display:block;">
+            <p style="font-size: 14px; top: auto;">
+                - my rate is <mark>7$/hr (PayPal ONLY)</mark>
+            </p>
+            
+        </article>
+
+        <article id="article2" role="tabpanel" style="display:none; height: 125px;">
+            <p style="font-size: 14px;">
+                - This package will let you have me for 12 hours a week at 65$ a week.<br>
+                - Standard ToS applies<br>
+                - Must be agreed upon before work starts
+            </p>
+        </article>
+
+        <p>I do <mark>not</mark> work for free.<br>
+            - I do <mark>not</mark> accept any sort of percentage.<br>
+            - I can negotiate pricing to some extent.
+        </p>
+    </div>
+</div>
+
+        <div class="window" style="width:200px; height:150px; position: absolute; top:550px; left:10vw;">
+            <div class="title-bar">
+                <div class="title-bar-text">Ready?</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <article role="tabpanel">
+                    <h6 style="font-size: 14px;">
+                        contact me on discord @Toni1zah
+                    </h6>
+                </article>
+            </div>
+        </div>
+
+        <div class="window" style="width:250px; height:500px; position: absolute; top:600px; left:75vw;">
+            <div class="title-bar">
+                <div class="title-bar-text">Skills</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <h3> I specialize in lots of areas such as: </h3>
+
+                <h4>  
+                    - AI & Pathfinding Systems <br>
+                    - Simulators <br>
+                    - Combat Systems <br>
+                    - Vehicles <br>
+                    - Projectile / sports games <br>
+                    - UI based work <br>
+                    - FPS frameworks <br>
+
+                     & lots more.
+                </h4>
+            </div>
+        </div>
+
+        <div class="window" style="width:300px; height:80px; position: absolute; top:40px; left:45vw;">
+            <div class="title-bar">
+                <div class="title-bar-text">Github</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                 <p style="font-size: large;">you can see my github <a href="https://github.com/Toni1zah?tab=repositories">here</a></p>
+            </div>
+        </div>
+
+    </div>
 </body>
+</html>
 
-<img src = "https://i.pinimg.com/736x/44/95/a5/4495a5ce419b3625177f196e50f7b32e.jpg" class="center">
-
- <p>Hey! I'm Tony. Your reliable and affordable go-to <u> HTML and Luau programmer </u>. <br> 
-        I have <em> 4 years </em> of experience in Luau and <em> 3 months </em> in HTML,CSS and JS. <br> 
- </p>
-
-<p> You can see my work examples which range in all categories <a href = "https://drive.google.com/drive/folders/1e_1VFY2oHLwHLIBZL0oFagUEr4_C0yR8?usp=sharing">here</a> </p>
-
-<h3> Categories of games I've worked on: </h3>
-
-<p id = "gamesworkedon"> 🔵 simulators 🔵 sports games 🔵 FPS 🔵 RPGs <br> 🔵 tycoons 🔵 fighting games
-
-<h4> <u> Contact Toni1zah on discord  🔵 prices can be discussed once i've been informed of the task 🔵 I take half of the decided payment upfront. </u> </h4>
+<script>
+document.getElementById("show-article1").addEventListener("click", function() {
+    document.getElementById("article1").style.display = "block";
+    document.getElementById("article2").style.display = "none";
+});
+document.getElementById("show-article2").addEventListener("click", function() {
+    document.getElementById("article1").style.display = "none";
+    document.getElementById("article2").style.display = "block";
+});
+</script>
